@@ -16,8 +16,8 @@ async function bootstrap() {
         enableImplicitConversion: true,
       }
     })
-   );
+  );
 
-  await app.listen( process.env.PORT );
+  await app.listen(process.env.PORT);
 }
 bootstrap();
